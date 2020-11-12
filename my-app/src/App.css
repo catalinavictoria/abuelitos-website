@@ -39,4 +39,5 @@
 
 .button1, .button2 {
   display: inline-block;
+  margin: 10px;
 }

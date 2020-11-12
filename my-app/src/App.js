@@ -9,8 +9,10 @@ function App() {
         <p>
           Párrafo para texto de Sitio Web Abuelitos!
         </p>
-        <button className="button1">Botón que no hace nada</button>
-        <button className="button2">Otro botón que no hace nada</button>
+        <div clasName="botones">
+          <button className="button1">Botón que no hace nada</button>
+          <button className="button2">Otro botón que no hace nada</button>
+        </div>
       </header>
     </div>
   );
