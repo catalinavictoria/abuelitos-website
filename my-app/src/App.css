@@ -13,15 +13,21 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.abuelitos {
+  font-style: italic;
+}
+
+.links {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
 }
 
 .App-link {

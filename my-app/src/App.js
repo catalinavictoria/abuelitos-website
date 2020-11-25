@@ -1,19 +1,11 @@
 import './App.css';
-import Homepage from './components/homepage';
+import Image from './components/image';
+import Header from './components/header';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Homepage />
-        <p>
-          Párrafo para texto de Sitio Web Abuelitos!
-        </p>
-        <div clasName="botones">
-          <button className="button1">Botón que no hace nada</button>
-          <button className="button2">Otro botón que no hace nada</button>
-        </div>
-      </header>
+        <Header />
     </div>
   );
 }
